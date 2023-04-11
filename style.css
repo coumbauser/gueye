@@ -1,0 +1,170 @@
+/*created by tivotal */
+/*google fonts(poppins) */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins, sans-serif";
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.form{
+    width: 100%;
+    max-width: 900px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, .1);
+    z-index: 1000;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.contact-form{
+    background-color: darkblue;
+    position: relative;
+}
+.circle{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    background: linear-gradient(145deg),
+    transparent 20%, #146a92;
+    border-radius: 50%;
+}
+h3{
+    color:  darkblue;
+}
+h1{
+    color: darkblue;
+}
+.circle.one{
+    width: 130px;
+    height: 130px;
+    top: 130px;
+}
+.contact-form::before{
+    content: ;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background-color: red;
+    top: 50px;
+    left: -12px;
+    transform: rotate(45deg);
+}
+form{
+    padding: 3rem 1.5rem;
+    position: relative;
+}
+.title{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.input-container{
+    position: relative;
+    margin: 2rem 0;
+}
+.input{
+    width: 100%;
+    outline: none;
+    border: 2px solid #fafafa;
+    background-color: none;
+    padding: .6rem 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    font-size: .95rem;
+    letter-spacing: 1px;
+    border-radius: 0px;
+    transform: .3s;
+}
+textarea.input{
+    padding: .5rem 1rem;
+    min-height: 80px;
+    border-radius: 0px;
+    resize: none;
+    overflow-y: auto;
+}
+.btn{
+    padding: .6rem  2.4rem;
+    background-color: #fff;
+    border: 2px solid #fafafa;
+    font-size: .95rem;
+    line-height: 1;
+    border-radius: 0px;
+    background-color: darkblue;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+    margin: 0;
+    outline: none;
+    color: #fff;
+}
+
+.contact-info{
+    padding: 3.3rem 2.2rem;
+    position: relative;
+}
+.contact-info .title{
+    color: darkblue;
+}
+.text{
+    color: darkblue;
+    margin: 1.5rem 0 1rem 0;
+}
+
+.information{
+    display: flex;
+    color: darkblue;
+    margin: .7rem 0;
+    font-size: .95rem;
+    align-items: center;
+}
+.icon{
+    font-size: 30px;
+}
+.social-media{
+    padding: 0rem 0 0 0;
+}
+.social-.media p{
+    color: darkblue;
+}
+.social-icons{
+    margin-top: .10rem;
+}
+.social-icons a{
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    background: linear-gradient(5deg,
+     darkblue, darkblue);
+    text-align: center;
+    color: #fff;
+    line-height: 11px;
+    margin-right: .5rem;
+    transition: .900s;
+    font-size: 10px;
+    padding: 10px;
+}
+.social-icons a:hover{
+    transform: scale(1.09);
+}
+.contact-info::before{
+    content: "";
+    position: absolute;
+    width: 110px;
+    height: 110px;
+}
+
+
